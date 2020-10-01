@@ -23,13 +23,12 @@ function App() {
 					<div className="route-container">
 						<div className="route-switch-container">
 							<Switch>
-								<Route path="/" exact component={LoginPage} />
 								<Route path="/login" exact component={LoginPage} />
 								<Route path="/user/create" exact component={UserCreatePage} />
 								
 								<ProtectedRoute path="/admin/home" exact component={AdminHomePage} />
 								<Route component={LoginPage}>
-									<Redirect to="/" />
+									<Redirect to="/login" />
 								</Route>
 							</Switch>
 						</div>
