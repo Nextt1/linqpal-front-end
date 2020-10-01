@@ -1,0 +1,21 @@
+.login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 16px; 
+    margin-bottom: 16px;
+    background-color: white;
+}
+
+.input-container{
+    padding: 4px;
+    margin: 4px;
+}
